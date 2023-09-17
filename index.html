@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harsh's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0d884f97a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    
+</head>
+
+<body>
+    <div id="home">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" alt="" class="logo">
+                <ul id="tab">
+                    <li><a href="#home" onclick="closeit()">Home</a></li>
+                    <li><a href="#about" onclick="closeit()">About Me</a></li>
+                    <li><a href="#mywork" onclick="closeit()">My work</a></li>
+                    <li><a href="#certificate" onclick="closeit()">Certificates</a></li>
+                    <li><a href="#contact" onclick="closeit()">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="head-text">
+                <p></p>
+                <h1>Hello,my name is <span> Harsh</span> <br>An Aspiring Engineer</h1>
+            </div>
+            <div class="top">
+                <a href="#home">&uarr; Top</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About  -->
+    <div id="about">
+        <div class="container">
+            <div class="about-sec">
+                <div class="about-img">
+                    <img src="images/abt_img.png" alt="">
+                </div>
+
+
+                <div class="about-right">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, My name is Harsh from Muzaffarnagar,Uttar Pardesh. Currently i am pursuing B.tech in
+                        computer science from KIET Group Of institutons Ghaziabad.
+                        <br><br>
+                        I have  skills which include  C, C++, HTML, CSS, data structures and algorithms. 
+                        I am always striving to learn and improve my skills as a developer.
+                    </p>
+
+                    <div class="about-me-button">
+                        <button onclick="f1()" id="btn1">Skill</button>
+                        <button onclick="f2()" id="btn2">Experince</button>
+                        <button onclick="f3()" id="btn3">Education</button>
+                    </div>
+
+                    <div class="tab-contents"  id="skill">
+
+                        <div style="margin-top:100px">
+                            <span>C</span>
+                            <span>C++</span>
+                            <!-- <span>Java</span> -->
+                            <span>Data Structures and algorithms</span>
+                        </div>
+                        <div>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Object Oriented Programming</span>
+                            <!-- <span>Phython</span> -->
+                        </div>
+                        <!-- <div> -->
+                            <!-- <span>SQL</span> -->
+                            <!-- <span>Tailwind CSS</span> -->
+                            <!-- <span>BootStrap</span> -->
+
+                        <!-- </div> -->
+                        <div>
+                        </div>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <h2>Oasis Infobyte</h2><br>
+                        <span>Intern as a web developer</span><br>
+                        <p>
+                            During my web development internship, I successfully created three projects: a tribute page, a to-do web app, and a calculator. 
+   
+                        </p>
+                        <p>
+                            These projects showcased my skills in HTML, CSS, and JavaScript. I applied responsive design principles, user-friendly interfaces, and efficient coding to deliver functional and visually appealing web applications.
+                        </p>
+                        <br>
+                        <br>
+                        <h2>Mini Project Internship</h2><br>
+                        <span>Internship and IIPC</span><br>
+                        <p>
+                           Completed internship as mini project successfully organized by CS department & 
+                           internship & industry partnership cell (IIPC) of KIET Group of Institutons,Delhi-NCR,Ghaziabad
+                        </p>
+                       
+                    </div>
+                    <div class="tab-contents" id="education">
+
+                        <p><span>B.tech</span><br> KIET Group Of institutons Ghaziabad<br>
+                             computer science <br>
+                        <p id="percentage">percentage
+                            : pursuing</p>
+                        </p>
+                        <hr>
+                        <p><span>Inter School</span><br> Moon Light Public School,MZN<br>PCM <br>
+                        <p id="percentage">percentage:90.17</p>
+                        </p>
+                        <hr>
+                        <p><span>High School</span><br> Sunrise Public School,MZN<br>
+                        <p id="percentage">percentage: 89.60</p>
+                        </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+
+
+            <div class="work-block">
+                <div>
+                    <img src="images/p1.png" alt="">
+                    <h2>To-Do-List</h2>
+                    <p>To-Do-List is a web app, designed with HTML, CSS, and JavaScript, 
+                        to simplify your daily tasks. 
+                        It helps you keep track of your tasks with just a click. 
+                        it's super handy for getting things done!<br><br>
+                        <h3>Technology used :- HTML CSS JS</h3><br><br>
+                    </p>
+                    <a href="https://h4-harshh.github.io/OIBSIP/project03/" target="_blank">See</a>
+                </div>
+                <div>
+                    <img src="images/p2.png" alt="">
+                    <h2>Tribute Page</h2>
+                    <p>A.P.J Abdul Kalam tribute page project in HTML/CSS is a web development project aimed at creating a tribute page 
+                        dedicated to the life and works of the A.P.J Abdul Kalam. The page contains a brief history of his life,
+                         achievements.
+
+                        <br><br>
+                    <h3>Technology used :- HTML CSS </h3>
+                    </p>
+                    <a href="https://h4-harshh.github.io/OIBSIP/project2/" target="_blank">See</a>
+                </div>
+                <div>
+                    <img src="images/p3.png" alt="">
+                    <h2>Calculator</h2>
+                    <p>
+                        It includes designing and coding elements such as the number pad, mathematical operations, and display screen. 
+                        The project requires expertise in frontend technologies and knowledge of JavaScript programming concepts like 
+                        event handling, functions, and DOM manipulation to create a responsive and visually appealing calculator.<br><br>
+                    <h3>Technology used :- HTML CSS</h3>
+                    </p>
+                    <a href="https://h4-harshh.github.io/OIBSIP/project1/" target="_blank">See</a>
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See more</a> -->
+        </div>
+    </div>
+
+
+    <!-- certificates -->
+
+
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-title">Certificates</h1>
+
+            <div class="certificate-block">
+                <div>
+                    <a href="https://files.codingninjas.in/certi_image210179c90abf375b57f9bddca41199dbd5ef00.jpg">
+                        <img src="images/cpp.png" alt="">
+                    </a>
+                    <p>C++</p>
+                    <p>Coding Ninjas</p>
+                    <p>Issued : may 2023</p>
+
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/learning/certificates/e3079b8aa34ad852263d168b8b05c1b1a99d9f6f1b644c83135659997722cf6b">
+                        <img src="images/html2.jpg" alt="">
+                    </a>
+                    <p>HTML</p>
+                    <p>Linked In</p>
+                    <p>Issued : sept 2023</p>
+
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/learning/certificates/be2174f7fefb6f77472368c4c6e8c4c1b26b81e2475c2c6f492baf70cd1a0bd8">
+                        <img src="images/css2.jpg" alt="">
+                    </a>
+                    <p>CSS</p>
+                    <p>Linked In</p>
+                    <p>Issued : sept 2023</p>
+
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See more</a> -->
+        </div>
+    </div>
+    <!--  Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact1">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope"></i>&#160 mail2mrharsh@gmail.com</p>
+                <p><i class="fa fa-phone"></i></i>&#160&#160<i class="fa-brands fa-whatsapp"></i> &#160 9627201551</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/harsh-549734218/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/h4-harshh" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.codingninjas.com/studio/profile/8494e6e4-0ee4-4908-8dbb-fc4291fa7e3c"
+                        target="_blank"><img src="images/cn.jpg" alt=""></a>
+                    <a href="https://auth.geeksforgeeks.org/user/harshnemr3o" target="_blank"><img
+                            src="images/gfg.jpg" alt=""></a>
+                </div>
+                <!-- <a href="resuuume" download class="btn">Download CV</a> -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>copyright @ harsh. All Right Reserved</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
